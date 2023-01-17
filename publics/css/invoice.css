@@ -1,0 +1,20 @@
+.filter ul{
+  list-style-type: none;
+}
+.filter ul li {
+  font-size: 16px;
+  color:black;
+
+}
+
+
+.filter ul li a{
+  color:inherit;
+  transform: inherit;
+
+}
+
+.filter ul li.active, .filter ul li:hover {
+  transform: scale(1.1);
+  color:#b7b2fb;
+}

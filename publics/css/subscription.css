@@ -1,0 +1,19 @@
+.owl-carousel .item .card:hover{
+  box-shadow: 2px 11px 7px #0003;;
+}
+
+h4{
+  color:#b7b2fb;
+}
+
+.offre div span:nth-child(1){
+  font-size:22px;
+  margin-right: 10px;
+}
+.offre div span:nth-child(2){
+  font-size:25px;
+  font-weight: 600;
+}
+form div.form-check label{
+  font-size:20px;
+}

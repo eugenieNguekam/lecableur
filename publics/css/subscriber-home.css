@@ -1,0 +1,13 @@
+.action a{
+  box-shadow:12px 29px 18px #00000061;
+}
+.action div{
+  border: 1px solid  #b7b2fb;
+  width:250px;
+  height:250px;
+  padding:40px;
+
+}
+.contact div{
+  font-size:22px;
+}

@@ -1,0 +1,26 @@
+form div.periodicite button{
+  background:#6c757d;
+}
+form div.starter-price button, form div.finisher-price button{
+  background: #6c757d;
+}
+
+form div.periodicite button.active{
+  background: #b7b2fb;
+}
+
+form div.starter-price button.active, form div.finisher-price button.active{
+  background: #b7b2fb;
+}
+
+.facture div span:nth-child(1), .facture div a{
+  font-size: 22px;
+ margin-right: 10px;
+
+}
+.facture div span:nth-child(2){
+  font-size: 25px;
+  font-weight: 600;
+  font-weight: bold;
+
+}

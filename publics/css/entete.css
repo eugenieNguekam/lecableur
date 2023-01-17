@@ -1,0 +1,69 @@
+.bg,
+
+    .btnForm {
+        background-image: linear-gradient(to bottom right,
+                rgba(112, 102, 247, 0.5),
+                white,
+                rgba(62, 160, 252, 0.26));
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .navStyle{
+        background-color: rgba(112, 102, 247, 0.5);
+    }
+   .formMain{
+        background-color: rgba(177, 169, 169, 0.466);
+        box-shadow: rgb(230, 204, 217);
+        border: 3px solid rgb(230, 204, 217);
+   }
+
+
+   .btnEdit{
+       background-color:rgba(112, 102, 247, 0.5); ;
+   }
+   .infobulle, .infobullesup{
+       transform: scale(0);
+       position: absolute;
+       background-color: #8f95db69;
+       color: white;
+       border-radius: 5px;
+       padding: 2px;
+       box-shadow: 1px 1px 0 0.5px rgba(112, 102, 247, 0.5);
+       border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+       border-left: 10px solid transparent;
+       border-right: 10px solid transparent;
+       transition: 0.5s;
+   }
+   .infobulle::before,
+   .infobullesup::before{
+       content: '';
+       position: absolute;
+       border-bottom: 8px solid #8f95db69;
+       border-left: 8px solid transparent;
+       border-right: 8px solid transparent;
+       margin-top: -10px;
+
+
+   }
+   .icon:hover > .infobulle{
+       transform: scale(1);
+   }
+    .icon:hover > .infobullesup{
+       transform: scale(1);
+   }
+
+.list{
+  transition: all ease .5s;
+}
+nav ul li.active, nav ul li:hover{
+  font-size: 22px;
+  font-weight: bold;
+
+}
+nav li{
+  height:45px;
+}
+
+.bg-gray{
+    background-color: #ececec;
+}

@@ -1,0 +1,10 @@
+.task ul li{
+  font-size: 21px;
+  font-weight:600;
+}
+.task ul  a.btn{
+  background: #b7b2fb;
+}
+.task ul{
+  list-style-type: none;
+}
